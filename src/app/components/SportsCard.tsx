@@ -25,7 +25,6 @@ const SportsCard: React.FC<SportsCardProps> = ({ image, teamName, events, sportN
           width={218.4}
           src={image}
           alt='Sacramento-River-Cats'
-          style={{ clipPath: "inset(0 0 0 1px)" }}
         />
 
         <div>

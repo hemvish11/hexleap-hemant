@@ -57,7 +57,7 @@ const SlickCarousalFinal1 = () => {
 
     const items = allTicketsData.map((ticket: Ticket) => {
         return (
-            <div className='w-full flex justify-center items-center' key={ticket.id}>
+            <div className='sm:w-full flex justify-center items-center' key={ticket.id}>
 
                 <TicketCardTemp
                     key={ticket.id}
@@ -75,10 +75,11 @@ const SlickCarousalFinal1 = () => {
 
     return (
         <div className='flex justify-center items-center'>
+            {/* --------------left arrow---------- */}
 
             <div onClick={handlePrevClick} className='border-2 pt-[6px] pb-[6px] border-[#2C9CF0]
-             hover:border-blue-600 text-[#2C9CF0] hover:text-blue-600 hover:scale-110  mr-[5%]'>
-                <KeyboardArrowLeftIcon className='text-[35px]' />
+             hover:border-blue-600 text-[#2C9CF0] hover:text-blue-600 hover:scale-110 mr-[5%]'>
+                <KeyboardArrowLeftIcon className='text-[25px] lg:text-[35px]' />
             </div>
 
 
@@ -88,11 +89,13 @@ const SlickCarousalFinal1 = () => {
                 </Slider>
             </div>
 
+            {/* --------------right arrow---------- */}
             <div onClick={handleNextClick} className='border-2 pt-[6px] pb-[6px] border-[#2C9CF0] text-[#2C9CF0] 
              hover:border-blue-600 hover:text-blue-600 hover:scale-110 ml-[5%]'>
-
-                <KeyboardArrowRightIcon className=' text-[35px] ' />
+                <KeyboardArrowRightIcon className='text-[25px] lg:text-[35px] ' />
             </div>
+
+
         </div>
 
     );

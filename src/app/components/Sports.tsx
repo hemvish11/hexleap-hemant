@@ -4,6 +4,8 @@ import SportsCard from './SportsCard';
 import SportsData from "@/data/sports-data.json"
 import AdvertisementCard from './AdvertisementCard';
 import { Button } from '@mui/material';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
+import WbSunnyIcon from '@mui/icons-material/WbSunny';
 
 interface SportDetails {
   id: number,
@@ -46,8 +48,8 @@ function Sports() {
           Sports
         </span>
 
-        <div className='flex justify-end items-center md:w-full'>
-          <Button onClick={handleThemeMode} >{themeMode === "dark" ? "Light" : "Dark"}</Button>
+        <div className='absolute right-[5%]'>
+          <Button onClick={handleThemeMode} >{themeMode === "dark" ? <WbSunnyIcon className='text-white' /> : <DarkModeIcon className='text-black'/>}</Button>
         </div>
 
       </div>
@@ -55,16 +57,20 @@ function Sports() {
       <div className='flex justify-center items-center flex-wrap gap-3'>
 
         {allSportsData.map((sportCard: SportDetails) =>
-          <SportsCard
-            key={sportCard.id}
-            image={sportCard.image}
-            teamName={sportCard.teamName}
-            events={sportCard.events}
-            sportName={sportCard.sportName}
-          />
-        )}
 
-        <AdvertisementCard />
+            <SportsCard
+              key={sportCard.id}
+              image={sportCard.image}
+              teamName={sportCard.teamName}
+              events={sportCard.events}
+              sportName={sportCard.sportName}
+            />
+
+
+        )}
+        <div className='flex justify-center items-center w-full md:w-1/3 lg:w-1/4 xl:w-1/6'>
+          <AdvertisementCard />
+        </div>
 
 
       </div>

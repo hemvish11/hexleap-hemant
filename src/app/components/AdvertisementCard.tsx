@@ -7,35 +7,19 @@ const AdvertisementCard = () => {
 
     <div className='font-sans border dark:border-[#3b3e47] shadow-md mt-8 bg-white dark:bg-[#3b3e47] h-[501px] w-[238.53px]  '>
 
-      <div className='m-3 border dark:border-[#3b3e47] border-[#80b2aa] h-[95%] '
+      <div className='m-3 border dark:border-[#3b3e47]  border-[#80b2aa] h-[95%]'
         
       >
 
 
         {/*-------------------Advertisement card Image----------------*/}
 
-
-
-
         <Image
           height={218.4}
           width={218.4}
           src="/images/Advertisement.jpg"
           alt='Advertisement'
-          style={{ clipPath: "inset(0 0 0 1px)" }}
-
-          
         />
-        {/* placing add mark on image */}
-        <Image
-          height={40}
-          width={40}
-          src="/images/Ad-mark.jpg"
-          alt='Advertisement'
-          className='relative left-[171px] bottom-[211px]'
-          style={{ clipPath: "inset(0 0 0 1px)" }}
-        />
-
 
         {/* --------------------------Advertisement card description (starts)-------------------------------------------- */}
         <div className=' max-w-[218.4px] rounded-sm p-3 relative  bottom-[20px]'  >
@@ -63,8 +47,6 @@ const AdvertisementCard = () => {
 
       </div>
     </div>
-
-
 
   )
 }
