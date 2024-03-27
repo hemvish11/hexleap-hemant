@@ -24,7 +24,7 @@ const SportsCard: React.FC<SportsCardProps> = ({ image, teamName, events, sportN
           height={385.31}
           width={218.4}
           src={image}
-          alt='Sacramento-River-Cats'
+          alt={teamName}
         />
 
         <div>
