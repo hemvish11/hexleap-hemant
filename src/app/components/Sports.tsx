@@ -70,7 +70,7 @@ function Sports() {
       </div>
 
       <div className='flex items-center justify-center mt-10'>
-        <button className='bg-[#2c9cf0] hover:bg-blue-700 hover:scale-110 hover:transition-all text-white py-3 px-7 rounded-[3px] text-xs'>See More</button>
+        <button className='bg-[#2c9cf0] hover:bg-blue-700 hover:scale-110 hover:transition-all text-white py-3 px-7 rounded-[3px] text-sm'>See More</button>
       </div>
 
 

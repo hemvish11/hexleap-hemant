@@ -12,7 +12,7 @@ interface TicketCardProps {
 const TicketCardTemp: React.FC<TicketCardProps> = ({ image, teamName, time, location, btnDetails}) => {
 
     return (
-        <div className='dark:text-white w-full flex justify-center items-center'>
+        <div className='dark:text-white w-full flex justify-center items-center text-'>
 
         <div className= {`bg-[url("/pic.svg")] dark:bg-[url('/dark.svg')] dark-svg bg-cover flex justify-center items-center  font-poppins mt-8 h-[637px] w-[272px]`}>
 
