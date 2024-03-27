@@ -60,7 +60,7 @@ const SlickCarousalFinal1 = () => {
             <div className='w-full flex justify-center items-center' key={ticket.id}>
 
                 <TicketCardTemp
-
+                    key={ticket.id}
                     image={ticket.image}
                     teamName={ticket.teamName}
                     time={ticket.time}

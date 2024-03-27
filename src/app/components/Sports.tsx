@@ -21,7 +21,7 @@ function Sports() {
   const handleThemeMode = () => {
     if (themeMode === "light") {
       setThemeMode("dark");
-    }else{
+    } else {
       setThemeMode("light");
     }
   }
@@ -47,7 +47,7 @@ function Sports() {
         </span>
 
         <div className='flex justify-end items-center md:w-full'>
-          <Button onClick={handleThemeMode} >{themeMode==="dark" ? "Light" : "Dark"}</Button>
+          <Button onClick={handleThemeMode} >{themeMode === "dark" ? "Light" : "Dark"}</Button>
         </div>
 
       </div>
