@@ -63,7 +63,7 @@ const SlickCarousal = () => {
 
             <Slider {...settings}>
                 {allTicketsData.map((ticket: Ticket) => {
-                    return (<div>
+                    return (<div key={ticket.id}>
                         <TicketCardTemp
                             key={ticket.id}
                             image={ticket.image}
