@@ -1,0 +1,36 @@
+{
+    "ticketsData":[
+        {
+            "id": 10,
+            "image": "/images/ticket1.jpg",
+            "teamName": "Las Vegas Aviators",
+            "time": "OCT 15 | SUN | 4:30 PM",
+            "location": "Las Vegas Ballpark, Las Vegas, Nevada",
+            "btnDetails": "Take Flight Collection"
+        },
+        {
+            "id": 11,
+            "image": "/images/ticket2.jpg",
+            "teamName": "Sacramento River Cats",
+            "time": "OCT 15 | SUN | 4:30 PM",
+            "location": "Sutter Health Park, Sacramento, California",
+            "btnDetails": "Orange Collection"
+        },
+        {
+            "id": 12,
+            "image": "/images/ticket1.jpg",
+            "teamName": "Las Vegas Aviators",
+            "time": "OCT 15 | SUN | 4:30 PM",
+            "location": "Las Vegas Ballpark, Las Vegas, Nevada",
+            "btnDetails": "Take Flight Collection"
+        },
+        {
+            "id": 13,
+            "image": "/images/ticket2.jpg",
+            "teamName": "Sacramento River Cats",
+            "time": "OCT 15 | SUN | 4:30 PM",
+            "location": "Sutter Health Park, Sacramento, California",
+            "btnDetails": "Orange Collection"
+        }
+    ]
+}

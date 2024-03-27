@@ -1,0 +1,32 @@
+{
+    "sportsData": [
+        {
+            "id": 1,
+            "image": "/images/Sacramento-River-Cats.jpg",
+            "teamName": "Sacramento River Cats",
+            "events": 48,
+            "sportName": "Baseball"
+        },
+        {
+            "id": 2,
+            "image": "/images/Las-Vegas-Aviators.jpg",
+            "teamName": "Las Vegas Aviators",
+            "events": 28,
+            "sportName": "Baseball"
+        },
+        {
+            "id": 3,
+            "image": "/images/New-jersey-devils.jpg",
+            "teamName": "New Jersey Devils",
+            "events": 15,
+            "sportName": "Ice hockey"
+        },
+        {
+            "id": 4,
+            "image": "/images/Las-Vegas-Aviators.jpg",
+            "teamName": "Las Vegas Aviators",
+            "events": 28,
+            "sportName": "Baseball"
+        }
+    ]
+}
