@@ -30,7 +30,7 @@ const SportsCard: React.FC<SportsCardProps> = ({ image, teamName, events, sportN
 
         <div>
 
-          <h1 className=' mt-3 mb-3 text-[16px]/[20.57px] font-semibold dark:text-white '>{teamName}</h1>
+          <h1 className=' mt-3 mb-3 text-[17px]/[20.57px] font-semibold dark:text-white '>{teamName}</h1>
 
         </div>
 
@@ -43,13 +43,13 @@ const SportsCard: React.FC<SportsCardProps> = ({ image, teamName, events, sportN
 
 
             <div className='flex flex-col justify-between w-[70.45px] h-[31px]'>
-              <p className='font-[400] text-[12px]/[14.52px] w-[70.45px] h-[9px] text-[#525965] dark:text-[#dfdfdf] ' >Total Events</p>
-              <p className='w-[67.43px] h-[10px] text-[13px]/[16.92px] font-semibold dark:text-white'>{events} Events</p>
+              <p className='font-[400] text-[11px]/[14.52px] w-[70.45px] h-[9px] text-[#525965] dark:text-[#dfdfdf] ' >Total Events</p>
+              <p className='w-[67.43px] h-[10px] text-[12px]/[16.92px] font-semibold dark:text-white'>{events} Events</p>
             </div>
 
             <div className='flex flex-col justify-between w-[70.45px] h-[31px]'>
-              <p className='font-[400] text-[12px]/[14.52px] w-[70.45px] h-[9px] text-[#525965] dark:text-[#dfdfdf]'>Sport</p>
-              <p className='w-[67.43px] h-[10px] text-[13px]/[16.92px] font-semibold dark:text-white'>{sportName}</p>
+              <p className='font-[400] text-[11px]/[14.52px] w-[70.45px] h-[9px] text-[#525965] dark:text-[#dfdfdf]'>Sport</p>
+              <p className='w-[67.43px] h-[10px] text-[12px]/[16.92px] font-bold dark:text-white'>{sportName}</p>
             </div>
 
 

@@ -38,7 +38,7 @@ function Sports() {
   }, [themeMode]);
 
   return (
-    <div className='p-4 font-poppins mt-[2%]'>
+    <div className='p-4 font-poppins mt-[2%] mx-auto max-w-[1280px]'>
       <div className='flex justify-center md:justify-start md:ml-12'>
 
         <span className='text-[26px] leading-9 font-[700] decoration-[#738FFF]

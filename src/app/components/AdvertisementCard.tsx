@@ -41,7 +41,7 @@ const AdvertisementCard = () => {
         <div className=' max-w-[218.4px] rounded-sm p-3 relative  bottom-[20px]'  >
 
           <div className='flex flex-col justify-between '>
-            <h1 className=' mt-3 mb-3 text-[20px]/[24.2px] font-semibold text-[#222d3a] dark:text-white '
+            <h1 className=' mt-3 mb-3 text-[17px]/[24.2px] font-semibold text-[#222d3a] dark:text-white '
            >Advertisement title</h1>
 
             <p className='font-[400] text-[12.8px]/[19px] text-[#525965] dark:text-[#dfdfdf] '
