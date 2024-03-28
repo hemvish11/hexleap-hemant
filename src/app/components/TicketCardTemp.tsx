@@ -41,14 +41,14 @@ const TicketCardTemp: React.FC<TicketCardProps> = ({ image, teamName, time, loca
 
                     {/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ticket details starts xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */}
 
-                    <div className='flex flex-col mt-4 sm:mt-0 '>
-                        <div className='flex flex-col items-center text-center gap-2'>
+                    <div className='flex flex-col mt-4  sm:mt-0 '>
+                        <div className='flex flex-col items-center text-center gap-1 sm:gap-2'>
                             <h1 className='font-semibold text-sm sm:text-lg'>{teamName}</h1>
                             <p className='sm:text-sm text-[11px]'>{time}</p>
                             <p className='txt-info-light text-sm sm:text-sm opacity-95 dark:text-[#dfdfdf]'>{location}</p>
                         </div>
                         <div className='mt-3'>
-                            <button className='bg-[#1d1d1f] hover:bg-black dark:bg-black dark:hover:bg-[#1d1d1f] hover:scale-105 hover:transition-all text-white text-sm w-full p-2 mb-1 sm:mb-0'>{btnDetails}</button>
+                            <button className='bg-[#1d1d1f] hover:bg-black dark:bg-black dark:hover:bg-[#1d1d1f] hover:scale-105 hover:transition-all text-white text-sm w-full p-2 mb-2'>{btnDetails}</button>
                         </div>
                     </div>
 

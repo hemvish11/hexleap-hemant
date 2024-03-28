@@ -2,6 +2,8 @@
 <g filter="url(#filter0_d_2_19)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M8 4H265V432C259.477 432 255 436.477 255 442C255 447.523 259.477 452 265 452V628H8V452C13.5228 452 18 447.523 18 442C18 436.477 13.5228 432 8 432V4Z" fill="#3B3E47"/>
 </g>
+<line x1="31" y1="441.52" x2="242" y2="441.52" stroke="#818A97" stroke-width="0.959843" stroke-dasharray="5.76 5.76"/>
+
 <defs>
 <filter id="filter0_d_2_19" x="0" y="0" width="273" height="640" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
